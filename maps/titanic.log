@@ -1,0 +1,329 @@
+hlcsg v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\tools\hlcsg_x64.exe" "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.map" -nowadtextures 
+Arguments: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.map" -nowadtextures -low -wadautodetect 
+Entering C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps\titanic.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [      16 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [     off ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.03 seconds)
+CSGBrush:
+ (0.39 seconds)
+
+added 3 additional animating textures.
+Including Wadfile: C:/Users/ethan/OneDrive/Desktop/NZP Map Making tools/titanicTextures.wad
+ - Contains 18 used textures, 100.00 percent of map (3132 textures in wad)
+
+Wad files required to run the map: (None)
+Texture usage is at 0.17 mb (of 32.00 mb MAX)
+0.46 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\tools\hlbsp_x64.exe" "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.map" 
+Arguments: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.map" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      16 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-396,908,42)-(-395,1040,44) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-592,908,42)-(-400,912,44) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-398,642,44)-(-394,644,46) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-398,642,32)-(-394,644,44) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1500...2000...2399 (0.33 seconds)
+BSP generation successful, writing portal file 'C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps\titanic.prt'
+SolidBSP [hull 1] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-402,896,124)-(-380,1024,124) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,332,385)-(-791,364,385) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1500...2000...2255 (0.35 seconds)
+SolidBSP [hull 2] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-404,880,120)-(-370,1008,120) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-808,316,381)-(-807,356,381) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1500...2000...2140 (0.28 seconds)
+SolidBSP [hull 3] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-414,528,370)-(-144,560,370) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-376,1024,250)-(-144,1060,250) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-347,528,250)-(-144,560,250) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-380,1024,-38)-(-144,1060,-38) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,332,367)-(-791,364,367) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+2000...2386 (0.33 seconds)
+Reduced 6514 clipnodes to 5645
+Reduced 889 texinfos to 687
+Reduced 18 texdatas to 18 (179932 bytes to 179932)
+Reduced 5634 planes to 2132
+FixBrinks:
+Increased 5645 clipnodes to 5664.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             22/512         1408/32768    ( 4.3%)
+planes           2132/32768      42640/655360   ( 6.5%)
+vertexes        10900/65535     130800/786420   (16.6%)
+nodes            2342/32767      56208/786408   ( 7.1%)
+texinfos          687/32767      27480/1310680  ( 2.1%)
+faces            8004/65535     160080/1310700  (12.2%)
+* worldfaces     7870/32768          0/0        (24.0%)
+clipnodes        5664/32767      45312/262136   (17.3%)
+leaves           1409/32760      39452/917280   ( 4.3%)
+* worldleaves    1282/8192           0/0        (15.6%)
+marksurfaces     9724/65535      19448/131070   (14.8%)
+surfedges       38568/512000    154272/2048000  ( 7.5%)
+edges           19409/256000     77636/1024000  ( 7.6%)
+texdata          [variable]     179932/33554432 ( 0.5%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]      11762/2097152  ( 0.6%)
+* AllocBlock       47/64             0/0        (73.4%)
+18 textures referenced
+=== Total BSP file data space used: 946430 bytes ===
+Wad files required to run the map: (None)
+2.63 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\tools\hlvis_x64.exe" "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.bsp" -full 
+Arguments: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.bsp" -full -low 
+1282 portalleafs
+4027 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      16 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [      on ] [     off ]
+
+
+BasePortalVis:
+ (0.16 seconds)
+LeafThread:
+ (8.69 seconds)
+average leafs visible: 200
+g_visdatasize:98197  compressed from 206402
+8.90 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\tools\hlrad_x64.exe" -extra "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.bsp" 
+Arguments: -extra "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.bsp" -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                16 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[                on ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global texlight gap  [             0.000 ] [             0.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+18 textures referenced
+Reading texlights from 'C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\tools\lights.rad'
+0 opaque models
+0 opaque faces
+8004 faces
+Create Patches : 49498 base patches
+925202 square feet [133229208.00 square inches]
+light at (184.000000,728.000000,324.000000) has bad or missing '_light' value : ''
+light at (136.000000,824.000000,324.000000) has bad or missing '_light' value : ''
+light at (216.000000,776.000000,324.000000) has bad or missing '_light' value : ''
+light at (120.000000,680.000000,324.000000) has bad or missing '_light' value : ''
+light at (-648.000000,408.000000,60.000000) has bad or missing '_light' value : ''
+light at (-664.000000,536.000000,60.000000) has bad or missing '_light' value : ''
+light at (-648.000000,1064.000000,60.000000) has bad or missing '_light' value : ''
+light at (-648.000000,1128.000000,-84.000000) has bad or missing '_light' value : ''
+light at (-664.000000,1096.000000,-84.000000) has bad or missing '_light' value : ''
+light at (-648.000000,536.000000,-84.000000) has bad or missing '_light' value : ''
+light at (-664.000000,472.000000,-84.000000) has bad or missing '_light' value : ''
+35 direct lights and 0 fast direct lights
+2 light styles
+
+FindFacePositions:
+ (1.07 seconds)
+BuildFacelights:
+ (9.84 seconds)
+BuildVisLeafs:
+ (37.29 seconds)
+visibility matrix   : 152.8 megs
+MakeScales:
+ (20.13 seconds)
+Transfer Lists :   413916269 :   413.92M transfers
+       Indices :    58609372 :    55.89M bytes
+          Data :   827980987 :   789.62M bytes
+Bounce 1 GatherLight:
+ (1.15 seconds)
+Bounce 2 GatherLight:
+ (1.25 seconds)
+Bounce 3 GatherLight:
+ (1.27 seconds)
+Bounce 4 GatherLight:
+ (1.29 seconds)
+Bounce 5 GatherLight:
+ (1.28 seconds)
+Bounce 6 GatherLight:
+ (1.28 seconds)
+Bounce 7 GatherLight:
+ (1.27 seconds)
+Bounce 8 GatherLight:
+ (1.29 seconds)
+CreateTriangulations:
+ (0.13 seconds)
+AddPatchLights:
+ (4.12 seconds)
+FinalLightFace:
+ (0.02 seconds)
+83.52 seconds elapsed [1m 23s]
+
+-----   END   hlrad -----
+
+
+
