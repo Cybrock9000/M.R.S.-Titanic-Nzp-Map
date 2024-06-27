@@ -9,8 +9,6 @@ Arguments: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-po
 Entering C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps\titanic.map
 Warning: Entity 132 (classname "power_switch"): origin outside +/-4096: (5684,700,228)
 Warning: Entity 142 (classname "spawn_zombie"): origin outside +/-4096: (4556,1172,-64)
-Warning: Entity 143 (classname "spawn_zombie"): origin outside +/-4096: (4248,1172,-64)
-Warning: Entity 144 (classname "spawn_zombie"): origin outside +/-4096: (4248,260,-64)
 Warning: Entity 145 (classname "spawn_zombie"): origin outside +/-4096: (4556,260,-64)
 Warning: Entity 146 (classname "spawn_zombie"): origin outside +/-4096: (5224,252,84)
 Warning: Entity 147 (classname "spawn_zombie"): origin outside +/-4096: (5532,252,84)
@@ -22,9 +20,7 @@ Warning: Entity 167 (classname "perk_mule"): origin outside +/-4096: (5160,728,8
 Warning: Entity 174 (classname "spawn_zombie"): origin outside +/-4096: (5704,780,-196)
 Warning: Entity 181 (classname "teddy_spawn"): origin outside +/-4096: (5684,744,72)
 Warning: Entity 182 (classname "teddy_spawn"): origin outside +/-4096: (5676,728,220)
-Warning: Entity 203 (classname "item_barricade"): origin outside +/-4096: (4324,1140,-32)
 Warning: Entity 204 (classname "item_barricade"): origin outside +/-4096: (4620,1140,-32)
-Warning: Entity 205 (classname "item_barricade"): origin outside +/-4096: (4312,280,-32)
 Warning: Entity 206 (classname "item_barricade"): origin outside +/-4096: (4604,280,-32)
 Warning: Entity 207 (classname "item_barricade"): origin outside +/-4096: (5284,1152,112)
 Warning: Entity 208 (classname "item_barricade"): origin outside +/-4096: (5584,1152,112)
@@ -72,16 +68,16 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.02 seconds)
+ (0.05 seconds)
 CSGBrush:
- (0.27 seconds)
+ (0.53 seconds)
 
 Including Wadfile: C:/Users/ethan/OneDrive/Desktop/NZP Map Making tools/titanicTextures.wad
  - Contains 14 used textures, 100.00 percent of map (3132 textures in wad)
 
 Wad files required to run the map: (None)
 Texture usage is at 0.09 mb (of 32.00 mb MAX)
-0.33 seconds elapsed
+0.62 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -123,55 +119,54 @@ remove hull 2       [     off ] [     off ]
 
 SolidBSP [hull 0] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (3696,880,192)-(3696,1136,192) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (3696,288,192)-(3696,880,192) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-396,908,42)-(-395,1040,44) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-396,908,32)-(-395,1040,44) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-592,908,42)-(-400,912,44) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-398,642,44)-(-394,644,46) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-398,642,32)-(-394,644,44) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-2000...2500...3000...3303 (0.26 seconds)
+2000...2500...3000...3306 (0.40 seconds)
 BSP generation successful, writing portal file 'C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps\titanic.prt'
 SolidBSP [hull 1] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,332,385)-(-791,365,385) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 500...1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-402,896,124)-(-380,1024,124) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-2000...2500...3000...3290 (0.26 seconds)
-SolidBSP [hull 2] 500...1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-404,944,120)-(-370,1008,120) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+2000...2500...3000...3283 (0.33 seconds)
+SolidBSP [hull 2] 500...1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-404,940,120)-(-370,1008,120) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-808,316,381)-(-807,356,381) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-2000...2500...3000...3107 (0.25 seconds)
+2000...2500...3000...3102 (0.32 seconds)
 SolidBSP [hull 3] 500...1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-414,528,370)-(-144,560,370) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-376,1024,250)-(-144,1060,250) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-347,528,250)-(-144,560,250) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-380,1024,-38)-(-144,1060,-38) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
 2000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,332,367)-(-791,365,367) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-2500...3000...3431 (0.27 seconds)
-Reduced 9563 clipnodes to 8296
+2500...3000...3438 (0.40 seconds)
+Reduced 9543 clipnodes to 8282
 Reduced 1001 texinfos to 774
 Reduced 14 texdatas to 14 (89628 bytes to 89628)
-Reduced 7608 planes to 2943
+Reduced 7608 planes to 2941
 FixBrinks:
-Increased 8296 clipnodes to 8328.
+Increased 8282 clipnodes to 8317.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models             29/512         1856/32768    ( 5.7%)
-planes           2943/32768      58860/655360   ( 9.0%)
-vertexes        15051/65535     180612/786420   (23.0%)
-nodes            3279/32767      78696/786408   (10.0%)
+planes           2941/32768      58820/655360   ( 9.0%)
+vertexes        15071/65535     180852/786420   (23.0%)
+nodes            3283/32767      78792/786408   (10.0%)
 texinfos          774/32767      30960/1310680  ( 2.4%)
-faces           10871/65535     217420/1310700  (16.6%)
-* worldfaces    10691/32768          0/0        (32.6%)
-clipnodes        8328/32767      66624/262136   (25.4%)
-leaves           2005/32760      56140/917280   ( 6.1%)
-* worldleaves    1836/8192           0/0        (22.4%)
-marksurfaces    13599/65535      27198/131070   (20.8%)
-surfedges       52643/512000    210572/2048000  (10.3%)
-edges           26507/256000    106028/1024000  (10.4%)
+faces           10881/65535     217620/1310700  (16.6%)
+* worldfaces    10701/32768          0/0        (32.7%)
+clipnodes        8317/32767      66536/262136   (25.4%)
+leaves           2012/32760      56336/917280   ( 6.1%)
+* worldleaves    1843/8192           0/0        (22.5%)
+marksurfaces    13642/65535      27284/131070   (20.8%)
+surfedges       52707/512000    210828/2048000  (10.3%)
+edges           26537/256000    106148/1024000  (10.4%)
 texdata          [variable]      89628/33554432 ( 0.3%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      20463/2097152  ( 1.0%)
+entdata          [variable]      20467/2097152  ( 1.0%)
 * AllocBlock       60/64             0/0        (93.8%)
 14 textures referenced
-=== Total BSP file data space used: 1145057 bytes ===
+=== Total BSP file data space used: 1146127 bytes ===
 Wad files required to run the map: (None)
-2.06 seconds elapsed
+2.97 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -185,8 +180,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\tools\hlvis_x64.exe" "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.bsp" -full 
 Arguments: "C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\nazi-zombies-portable-windows-x86_64\nzp\maps/titanic.bsp" -full -low 
-1836 portalleafs
-6056 numportals
+1843 portalleafs
+6040 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -206,12 +201,12 @@ full vis            [      on ] [     off ]
 
 
 BasePortalVis:
- (0.20 seconds)
+ (0.37 seconds)
 LeafThread:
- (24.38 seconds)
-average leafs visible: 235
-g_visdatasize:158353  compressed from 422280
-24.61 seconds elapsed
+ (38.63 seconds)
+average leafs visible: 236
+g_visdatasize:161205  compressed from 425733
+39.06 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -297,9 +292,9 @@ Load Textures:
 Reading texlights from 'C:\Users\ethan\OneDrive\Desktop\NZP Map Making tools\tools\lights.rad'
 0 opaque models
 0 opaque faces
-10871 faces
-Create Patches : 63021 base patches
-1148490 square feet [165382656.00 square inches]
+10881 faces
+Create Patches : 63082 base patches
+1149526 square feet [165531824.00 square inches]
 light at (184.000000,728.000000,324.000000) has bad or missing '_light' value : ''
 light at (136.000000,824.000000,324.000000) has bad or missing '_light' value : ''
 light at (216.000000,776.000000,324.000000) has bad or missing '_light' value : ''
@@ -321,40 +316,40 @@ light at (-2980.000000,600.000000,-240.000000) has bad or missing '_light' value
 2 light styles
 
 FindFacePositions:
- (0.79 seconds)
+ (1.19 seconds)
 BuildFacelights:
- (13.54 seconds)
+ (13.84 seconds)
 BuildVisLeafs:
- (34.42 seconds)
-visibility matrix   : 214.5 megs
+ (45.25 seconds)
+visibility matrix   : 214.3 megs
 MakeScales:
- (28.64 seconds)
-Transfer Lists :   573236575 :   573.24M transfers
-       Indices :    91477728 :    87.24M bytes
-          Data :  1146661706 :  1093.54M bytes
+ (32.51 seconds)
+Transfer Lists :   573615868 :   573.62M transfers
+       Indices :    91319652 :    87.09M bytes
+          Data :  1147420475 :  1094.27M bytes
 Bounce 1 GatherLight:
- (1.36 seconds)
+ (1.49 seconds)
 Bounce 2 GatherLight:
- (1.45 seconds)
+ (1.73 seconds)
 Bounce 3 GatherLight:
- (1.51 seconds)
+ (2.23 seconds)
 Bounce 4 GatherLight:
- (1.49 seconds)
+ (2.23 seconds)
 Bounce 5 GatherLight:
- (1.49 seconds)
+ (2.21 seconds)
 Bounce 6 GatherLight:
- (1.50 seconds)
+ (2.16 seconds)
 Bounce 7 GatherLight:
- (1.49 seconds)
+ (2.20 seconds)
 Bounce 8 GatherLight:
- (1.50 seconds)
+ (2.19 seconds)
 CreateTriangulations:
- (0.09 seconds)
+ (0.15 seconds)
 AddPatchLights:
- (3.40 seconds)
+ (4.70 seconds)
 FinalLightFace:
- (0.01 seconds)
-93.38 seconds elapsed [1m 33s]
+ (0.02 seconds)
+114.90 seconds elapsed [1m 54s]
 
 -----   END   hlrad -----
 
